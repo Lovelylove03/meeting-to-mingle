@@ -1,11 +1,11 @@
 # Load the main dataset
 import streamlit as st
 import pandas as pd
-csv_file_path = '/content/archive (3) (1).zip'
+csv_file_path = 'Travel.csv
 df = pd.read_csv(csv_file_path)
 
 # Load the names and interests dataset
-names_interests_path = '/content/names_intrest.csv'
+names_interests_path = 'names_intrest.csv'
 names_interests_df = pd.read_csv(names_interests_path)
 df1 = pd.merge = pd.concat([df, names_interests_df], axis=1)
 df1.head()
