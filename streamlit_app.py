@@ -1,4 +1,6 @@
 # Load the main dataset
+import streamlit as st
+import pandas as pd
 csv_file_path = '/content/archive (3) (1).zip'
 df = pd.read_csv(csv_file_path)
 
