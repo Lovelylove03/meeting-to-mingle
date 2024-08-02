@@ -11,8 +11,8 @@ df1 = pd.merge = pd.concat([df, names_interests_df], axis=1)
 df1.head()
 # Function to display the homepage
 def display_home():
-    st.title("Welcome to the Party Platform!")
-    st.write("A place where divorced and single individuals can meet for a party.")
+    st.title(" Holiday_Package_Prediction!")
+    st.write("A place where divorced and single individuals with similar intrest  can meet and organise their holiday.")
 
     # Add a button to register
     if st.button("Register Now"):
@@ -24,7 +24,7 @@ def display_home():
 
 # Function to display the registration form
 def display_register():
-    st.title("Register for the Party")
+    st.title("Register for the holiday")
     name = st.text_input("Name")
     age = st.number_input("Age", min_value=18, max_value=100)
     gender = st.selectbox("Gender", ["Male", "Female", "Other"])
