@@ -1,7 +1,7 @@
 # Load the main dataset
 import streamlit as st
 import pandas as pd
-csv_file_path = 'Travel.csv
+csv_file_path = 'Travel.csv'
 df = pd.read_csv(csv_file_path)
 
 # Load the names and interests dataset
